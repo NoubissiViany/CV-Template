@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* sidebar */
+
+.section-container {
+  display: grid;
+  grid-template-columns: auto 70%;
+  margin: 15px;
+  width: 100%;
+  grid-column-gap: 0;
+}
+
+.sidebar-container {
+  box-shadow: 0 2px 5px gray;
+  color: gray;
+  padding: 15px;
+  margin-bottom: 150px;
+}
+
+.sidebar-container h2 {
+  color: black;
+}
+
+.sidebar-img {
+  background-image: url("https://www.w3schools.com/w3images/avatar_hat.jpg");
+  background-size: cover;
+  width: 100%;
+  min-height: 300px;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.sidebar-img h2 {
+  margin-left: 10px;
+  letter-spacing: 3px;
+}
+
+.sidebar-container2 {
+  padding-bottom: 25px;
+}
+
+span {
+  color: #009688;
+  margin-right: 15px;
+}
+
+.sidebar-hr {
+  width: 95%;
+  opacity: 0.3;
+}
+
+.sidebar-p1,
+.sidebar-p2 {
+  font-size: 20px;
+  color: gray;
+  font-weight: bold;
+}
+
+.progress-bar1 {
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 15px;
+}
+
+.progress-bar2 {
+  background-color: #009688;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.progress-bar3 {
+  background-color: #009688;
+  color: #009688;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Right Column */
+
+.column-container {
+  box-shadow: 1px 2px 5px gray;
+  margin: 0 25px;
+  padding: 15px;
+}
+
+.column-hr {
+  width: 99%;
+  opacity: 0.3;
+  margin: 20px 0;
+}
+
+.column-span1 {
+  color: #009688;
+  font-size: 18px;
+}
+
+.column-p1 {
+  line-height: 25px;
+}
+
+.column-span2 {
+  color: white;
+  background-color: #009688;
+  padding: 5px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+h1,
+h3 {
+  color: gray;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* Right column2 */
+
+.column-container2 {
+  box-shadow: 1px 2px 5px gray;
+  margin: 0 25px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+/* footer */
+
+.footer-container {
+  background-color: #009688;
+  color: white;
+  text-align: center;
+  margin-top: -8%;
+  padding: 15px;
+}
+
+.footer-container i:hover {
+  background-color: grey;
+  opacity: 0.4;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    margin-top: -1%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .section-container {
+    display: block;
+  }
+
+  .sidebar-container {
+    margin-bottom: 0;
+  }
+
+  .column-container,
+  .column-container2 {
+    margin: 15px 0;
+  }
+}
